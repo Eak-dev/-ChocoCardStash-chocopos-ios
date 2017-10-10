@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A38063DE1F8CD93100D93CE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38063DD1F8CD93100D93CE4 /* AppDelegate.swift */; };
+		A38063E01F8CD93100D93CE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38063DF1F8CD93100D93CE4 /* ViewController.swift */; };
+		A38063E31F8CD93100D93CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38063E11F8CD93100D93CE4 /* Main.storyboard */; };
+		A38063E51F8CD93100D93CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A38063E41F8CD93100D93CE4 /* Assets.xcassets */; };
+		A38063E81F8CD93100D93CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38063E61F8CD93100D93CE4 /* LaunchScreen.storyboard */; };
+		A38063F31F8CD93100D93CE4 /* ChocoCardPOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38063F21F8CD93100D93CE4 /* ChocoCardPOSTests.swift */; };
+		A38063FE1F8CD93200D93CE4 /* ChocoCardPOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38063FD1F8CD93200D93CE4 /* ChocoCardPOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A38063EF1F8CD93100D93CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A38063D21F8CD93100D93CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A38063D91F8CD93100D93CE4;
+			remoteInfo = ChocoCardPOS;
+		};
+		A38063FA1F8CD93200D93CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A38063D21F8CD93100D93CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A38063D91F8CD93100D93CE4;
+			remoteInfo = ChocoCardPOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A38063DA1F8CD93100D93CE4 /* ChocoCardPOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChocoCardPOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38063DD1F8CD93100D93CE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A38063DF1F8CD93100D93CE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A38063E21F8CD93100D93CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A38063E41F8CD93100D93CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A38063E71F8CD93100D93CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A38063E91F8CD93100D93CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A38063EE1F8CD93100D93CE4 /* ChocoCardPOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChocoCardPOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38063F21F8CD93100D93CE4 /* ChocoCardPOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocoCardPOSTests.swift; sourceTree = "<group>"; };
+		A38063F41F8CD93100D93CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A38063F91F8CD93200D93CE4 /* ChocoCardPOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChocoCardPOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38063FD1F8CD93200D93CE4 /* ChocoCardPOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocoCardPOSUITests.swift; sourceTree = "<group>"; };
+		A38063FF1F8CD93200D93CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A38063D71F8CD93100D93CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38063EB1F8CD93100D93CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38063F61F8CD93200D93CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A38063D11F8CD93100D93CE4 = {
+			isa = PBXGroup;
+			children = (
+				A38063DC1F8CD93100D93CE4 /* ChocoCardPOS */,
+				A38063F11F8CD93100D93CE4 /* ChocoCardPOSTests */,
+				A38063FC1F8CD93200D93CE4 /* ChocoCardPOSUITests */,
+				A38063DB1F8CD93100D93CE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A38063DB1F8CD93100D93CE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A38063DA1F8CD93100D93CE4 /* ChocoCardPOS.app */,
+				A38063EE1F8CD93100D93CE4 /* ChocoCardPOSTests.xctest */,
+				A38063F91F8CD93200D93CE4 /* ChocoCardPOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A38063DC1F8CD93100D93CE4 /* ChocoCardPOS */ = {
+			isa = PBXGroup;
+			children = (
+				A38063DD1F8CD93100D93CE4 /* AppDelegate.swift */,
+				A38063DF1F8CD93100D93CE4 /* ViewController.swift */,
+				A38063E11F8CD93100D93CE4 /* Main.storyboard */,
+				A38063E41F8CD93100D93CE4 /* Assets.xcassets */,
+				A38063E61F8CD93100D93CE4 /* LaunchScreen.storyboard */,
+				A38063E91F8CD93100D93CE4 /* Info.plist */,
+			);
+			path = ChocoCardPOS;
+			sourceTree = "<group>";
+		};
+		A38063F11F8CD93100D93CE4 /* ChocoCardPOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A38063F21F8CD93100D93CE4 /* ChocoCardPOSTests.swift */,
+				A38063F41F8CD93100D93CE4 /* Info.plist */,
+			);
+			path = ChocoCardPOSTests;
+			sourceTree = "<group>";
+		};
+		A38063FC1F8CD93200D93CE4 /* ChocoCardPOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A38063FD1F8CD93200D93CE4 /* ChocoCardPOSUITests.swift */,
+				A38063FF1F8CD93200D93CE4 /* Info.plist */,
+			);
+			path = ChocoCardPOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A38063D91F8CD93100D93CE4 /* ChocoCardPOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38064021F8CD93200D93CE4 /* Build configuration list for PBXNativeTarget "ChocoCardPOS" */;
+			buildPhases = (
+				A38063D61F8CD93100D93CE4 /* Sources */,
+				A38063D71F8CD93100D93CE4 /* Frameworks */,
+				A38063D81F8CD93100D93CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChocoCardPOS;
+			productName = ChocoCardPOS;
+			productReference = A38063DA1F8CD93100D93CE4 /* ChocoCardPOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A38063ED1F8CD93100D93CE4 /* ChocoCardPOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38064051F8CD93200D93CE4 /* Build configuration list for PBXNativeTarget "ChocoCardPOSTests" */;
+			buildPhases = (
+				A38063EA1F8CD93100D93CE4 /* Sources */,
+				A38063EB1F8CD93100D93CE4 /* Frameworks */,
+				A38063EC1F8CD93100D93CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A38063F01F8CD93100D93CE4 /* PBXTargetDependency */,
+			);
+			name = ChocoCardPOSTests;
+			productName = ChocoCardPOSTests;
+			productReference = A38063EE1F8CD93100D93CE4 /* ChocoCardPOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A38063F81F8CD93200D93CE4 /* ChocoCardPOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38064081F8CD93200D93CE4 /* Build configuration list for PBXNativeTarget "ChocoCardPOSUITests" */;
+			buildPhases = (
+				A38063F51F8CD93200D93CE4 /* Sources */,
+				A38063F61F8CD93200D93CE4 /* Frameworks */,
+				A38063F71F8CD93200D93CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A38063FB1F8CD93200D93CE4 /* PBXTargetDependency */,
+			);
+			name = ChocoCardPOSUITests;
+			productName = ChocoCardPOSUITests;
+			productReference = A38063F91F8CD93200D93CE4 /* ChocoCardPOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A38063D21F8CD93100D93CE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Eak_";
+				TargetAttributes = {
+					A38063D91F8CD93100D93CE4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					A38063ED1F8CD93100D93CE4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A38063D91F8CD93100D93CE4;
+					};
+					A38063F81F8CD93200D93CE4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A38063D91F8CD93100D93CE4;
+					};
+				};
+			};
+			buildConfigurationList = A38063D51F8CD93100D93CE4 /* Build configuration list for PBXProject "ChocoCardPOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A38063D11F8CD93100D93CE4;
+			productRefGroup = A38063DB1F8CD93100D93CE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A38063D91F8CD93100D93CE4 /* ChocoCardPOS */,
+				A38063ED1F8CD93100D93CE4 /* ChocoCardPOSTests */,
+				A38063F81F8CD93200D93CE4 /* ChocoCardPOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A38063D81F8CD93100D93CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38063E81F8CD93100D93CE4 /* LaunchScreen.storyboard in Resources */,
+				A38063E51F8CD93100D93CE4 /* Assets.xcassets in Resources */,
+				A38063E31F8CD93100D93CE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38063EC1F8CD93100D93CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38063F71F8CD93200D93CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A38063D61F8CD93100D93CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38063E01F8CD93100D93CE4 /* ViewController.swift in Sources */,
+				A38063DE1F8CD93100D93CE4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38063EA1F8CD93100D93CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38063F31F8CD93100D93CE4 /* ChocoCardPOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38063F51F8CD93200D93CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38063FE1F8CD93200D93CE4 /* ChocoCardPOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A38063F01F8CD93100D93CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A38063D91F8CD93100D93CE4 /* ChocoCardPOS */;
+			targetProxy = A38063EF1F8CD93100D93CE4 /* PBXContainerItemProxy */;
+		};
+		A38063FB1F8CD93200D93CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A38063D91F8CD93100D93CE4 /* ChocoCardPOS */;
+			targetProxy = A38063FA1F8CD93200D93CE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A38063E11F8CD93100D93CE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A38063E21F8CD93100D93CE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A38063E61F8CD93100D93CE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A38063E71F8CD93100D93CE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A38064001F8CD93200D93CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A38064011F8CD93200D93CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A38064031F8CD93200D93CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6U99H3J674;
+				INFOPLIST_FILE = ChocoCardPOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChocoCard.ChocoCardPOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A38064041F8CD93200D93CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6U99H3J674;
+				INFOPLIST_FILE = ChocoCardPOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChocoCard.ChocoCardPOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A38064061F8CD93200D93CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6U99H3J674;
+				INFOPLIST_FILE = ChocoCardPOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChocoCard.ChocoCardPOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChocoCardPOS.app/ChocoCardPOS";
+			};
+			name = Debug;
+		};
+		A38064071F8CD93200D93CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6U99H3J674;
+				INFOPLIST_FILE = ChocoCardPOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChocoCard.ChocoCardPOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChocoCardPOS.app/ChocoCardPOS";
+			};
+			name = Release;
+		};
+		A38064091F8CD93200D93CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6U99H3J674;
+				INFOPLIST_FILE = ChocoCardPOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChocoCard.ChocoCardPOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChocoCardPOS;
+			};
+			name = Debug;
+		};
+		A380640A1F8CD93200D93CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6U99H3J674;
+				INFOPLIST_FILE = ChocoCardPOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChocoCard.ChocoCardPOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChocoCardPOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A38063D51F8CD93100D93CE4 /* Build configuration list for PBXProject "ChocoCardPOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38064001F8CD93200D93CE4 /* Debug */,
+				A38064011F8CD93200D93CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38064021F8CD93200D93CE4 /* Build configuration list for PBXNativeTarget "ChocoCardPOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38064031F8CD93200D93CE4 /* Debug */,
+				A38064041F8CD93200D93CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38064051F8CD93200D93CE4 /* Build configuration list for PBXNativeTarget "ChocoCardPOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38064061F8CD93200D93CE4 /* Debug */,
+				A38064071F8CD93200D93CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38064081F8CD93200D93CE4 /* Build configuration list for PBXNativeTarget "ChocoCardPOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38064091F8CD93200D93CE4 /* Debug */,
+				A380640A1F8CD93200D93CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A38063D21F8CD93100D93CE4 /* Project object */;
+}
