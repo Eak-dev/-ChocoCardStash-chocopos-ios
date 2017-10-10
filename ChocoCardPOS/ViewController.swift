@@ -4,7 +4,7 @@
 //
 //  Created by Eak_ on 10/10/2560 BE.
 //  Copyright © 2560 Eak_. All rights reserved.
-//
+//  configured with bitbuckt repo
 
 import UIKit
 
